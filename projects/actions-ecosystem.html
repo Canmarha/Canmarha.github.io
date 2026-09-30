@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="GitHub Actions Ecosystem - Comprehensive guide to all official actions" />
+  <title>GitHub Actions Ecosystem | Canmarha</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <nav class="navbar">
+    <div class="container">
+      <div class="brand">Canmarha</div>
+      <ul class="nav-links">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="actions-ecosystem.html">Actions Ecosystem</a></li>
+        <li><a href="starter-workflows.html">Starter Workflows</a></li>
+        <li><a href="vscode.html">VS Code</a></li>
+        <li><a href="https://github.com/Canmarha" target="_blank">GitHub</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main class="container">
+    <section class="project-header">
+      <h1>🚀 GitHub Actions Ecosystem</h1>
+      <p class="subtitle">Complete guide to 76+ official GitHub Actions repositories</p>
+      <a href="https://github.com/actions" class="btn btn-primary" target="_blank">Visit @actions</a>
+    </section>
+
+    <section>
+      <h2>Overview</h2>
+      <p>
+        The official GitHub Actions organization maintains 76+ repositories covering everything from core tooling and actions runners to workflow templates and language setup actions. This comprehensive guide helps you navigate and understand the entire ecosystem.
+      </p>
+    </section>
+
+    <section>
+      <h2>Core Infrastructure (11 repos)</h2>
+      <p><strong>Foundation tools and runners that power GitHub Actions</strong></p>
+      <div class="category-grid">
+        <a href="#" class="category-card">
+          <h3>actions/runner</h3>
+          <p>The Runner for GitHub Actions. The engine executing all workflows.</p>
+          <span class="stars">⭐ 6.3K</span>
+        </a>
+        <a href="#" class="category-card">
+          <h3>actions/runner-images</h3>
+          <p>GitHub Actions runner images (Ubuntu, Windows, macOS). Virtual environments configuration.</p>
+          <span class="stars">⭐ 13.4K</span>
+        </a>
+        <a href="#" class="category-card">
+          <h3>actions/actions-runner-controller</h3>
+          <p>Kubernetes controller for self-hosted runners at scale.</p>
+          <span class="stars">⭐ 6.5K</span>
+        </a>
+        <a href="#" class="category-card">
+          <h3>actions/toolkit</h3>
+          <p>Official toolkit for developing GitHub Actions. Core APIs and utilities.</p>
+          <span class="stars">⭐ 5.9K</span>
+        </a>
+        <a href="#" class="category-card">
+          <h3>actions/languageservices</h3>
+          <p>Language services for GitHub Actions workflows and expressions.</p>
+          <span class="stars">⭐ 192</span>
+        </a>
+        <a href="#" class="category-card">
+          <h3>actions/http-client</h3>
+          <p>Lightweight HTTP client optimized for use with actions.</p>
+          <span class="stars">⭐ 79</span>
+        </a>
+      </div>
+    </section>
+
+    <section>
+      <h2>Artifact & Build Management (5 repos)</h2>
+      <p><strong>Actions for handling build artifacts and deployment</strong></p>
+      <div class="category-grid">
+        <a href="#" class="category-card">
+          <h3>actions/upload-artifact</h3>
+          <p>Upload workflow artifacts for sharing between jobs and retention.</p>
+          <span class="stars">⭐ 4.2K</span>
+        </a>
+        <a href="#" class="category-card">
+          <h3>actions/download-artifact</h3>
+          <p>Download artifacts created by previous jobs or workflows.</p>
+          <span class="stars">⭐ 1.9K</span>
+        </a>
+        <a href="#" class="category-card">
+          <h3>actions/cache</h3>
+          <p>Cache dependencies and build outputs in GitHub Actions.</p>
+          <span class="stars">⭐ 5.6K</span>
+        </a>
+        <a href="#" class="category-card">
+          <h3>actions/upload-pages-artifact</h3>
+          <p>Composite action for packaging artifacts for GitHub Pages deployment.</p>
+          <span class="stars">⭐ 513</span>
+        </a>
+        <a href="#" class="category-card">
+          <h3>actions/deploy-pages</h3>
+          <p>Deploy artifacts to GitHub Pages with workflow annotations.</p>
+          <span class="stars">⭐ 955</span>
+        </a>
+      </div>
+    </section>
+
+    <section>
+      <h2>Language & Runtime Setup (11 repos)</h2>
+      <p><strong>Setup actions for all major programming languages and runtimes</strong></p>
+      <div class="category-grid">
+        <a href="#" class="category-card">
+          <h3>actions/setup-node</h3>
+          <p>Set up specific Node.js version in GitHub Actions.</p>
+          <span class="stars">⭐ 5.0K</span>
+        </a>
+        <a href="#" class="category-card">
+          <h3>actions/setup-python</h3>
+          <p>Set up specific Python version in GitHub Actions.</p>
+          <span class="stars">⭐ 2.2K</span>
+        </a>
+        <a href="#" class="category-card">
+          <h3>actions/setup-go</h3>
+          <p>Set up specific Go version in GitHub Actions.</p>
+          <span class="stars">⭐ 1.8K</span>
+        </a>
+        <a href="#" class="category-card">
+          <h3>actions/setup-java</h3>
+          <p>Set up specific Java version in GitHub Actions.</p>
+          <span class="stars">⭐ 2.0K</span>
+        </a>
+        <a href="#" class="category-card">
+          <h3>actions/setup-dotnet</h3>
+          <p>Set up .NET core SDK in GitHub Actions.</p>
+          <span class="stars">⭐ 1.2K</span>
+        </a>
+        <a href="#" class="category-card">
+          <h3>actions/setup-ruby</h3>
+          <p>Set up Ruby version in GitHub Actions.</p>
+          <span class="stars">⭐ 187</span>
+        </a>
+        <a href="#" class="category-card">
+          <h3>actions/setup-elixir</h3>
+          <p>Set up Elixir and OTP in GitHub Actions.</p>
+          <span class="stars">⭐ 157</span>
+        </a>
+        <a href="#" class="category-card">
+          <h3>actions/setup-haskell</h3>
+          <p>Set up GHC and Cabal in GitHub Actions.</p>
+          <span class="stars">⭐ 75</span>
+        </a>
+      </div>
+    </section>
+
+    <section>
+      <h2>Code Quality & Security (6 repos)</h2>
+      <p><strong>Actions for analysis, scanning, and dependency management</strong></p>
+      <div class="category-grid">
+        <a href="#" class="category-card">
+          <h3>actions/labeler</h3>
+          <p>Automatically label pull requests based on changed files.</p>
+          <span class="stars">⭐ 2.5K</span>
+        </a>
+        <a href="#" class="category-card">
+          <h3>actions/dependency-review-action</h3>
+          <p>Detect vulnerable dependencies and invalid licenses in PRs.</p>
+          <span class="stars">⭐ 898</span>
+        </a>
+        <a href="#" class="category-card">
+          <h3>actions/stale</h3>
+          <p>Mark issues and PRs that lack recent interaction as stale.</p>
+          <span class="stars">⭐ 1.7K</span>
+        </a>
+        <a href="#" class="category-card">
+          <h3>actions/upload-code-coverage</h3>
+          <p>Upload code coverage reports from GitHub Actions workflows.</p>
+          <span class="stars">⭐ 101</span>
+        </a>
+      </div>
+    </section>
+
+    <section>
+      <h2>Utilities & Helpers (15 repos)</h2>
+      <p><strong>Essential utility actions for common workflow tasks</strong></p>
+      <div class="category-grid">
+        <a href="#" class="category-card">
+          <h3>actions/checkout</h3>
+          <p>Action for checking out a repository. Essential for all workflows.</p>
+          <span class="stars">⭐ 8.9K</span>
+        </a>
+        <a href="#" class="category-card">
+          <h3>actions/github-script</h3>
+          <p>Write GitHub API scripts in JavaScript within workflows.</p>
+          <span class="stars">⭐ 5.0K</span>
+        </a>
+        <a href="#" class="category-card">
+          <h3>actions/github</h3>
+          <p>Wraps actions-toolkit into an Action for GitHub automations.</p>
+          <span class="stars">⭐ 124</span>
+        </a>
+        <a href="#" class="category-card">
+          <h3>actions/first-interaction</h3>
+          <p>Filter PRs/issues from first-time contributors with custom messages.</p>
+          <span class="stars">⭐ 897</span>
+        </a>
+        <a href="#" class="category-card">
+          <h3>actions/add-to-project</h3>
+          <p>Automate adding issues and PRs to GitHub Projects.</p>
+          <span class="stars">⭐ 717</span>
+        </a>
+        <a href="#" class="category-card">
+          <h3>actions/create-github-app-token</h3>
+          <p>Create GitHub App Installation Access Token for workflows.</p>
+          <span class="stars">⭐ 890</span>
+        </a>
+      </div>
+    </section>
+
+    <section>
+      <h2>Pages & Documentation (4 repos)</h2>
+      <p><strong>Actions for GitHub Pages builds and deployments</strong></p>
+      <div class="category-grid">
+        <a href="#" class="category-card">
+          <h3>actions/configure-pages</h3>
+          <p>Enable GitHub Pages and configure static site generators.</p>
+          <span class="stars">⭐ 244</span>
+        </a>
+        <a href="#" class="category-card">
+          <h3>actions/jekyll-build-pages</h3>
+          <p>Build Jekyll artifacts compatible with GitHub Pages.</p>
+          <span class="stars">⭐ 121</span>
+        </a>
+      </div>
+    </section>
+
+    <section>
+      <h2>Action Development Templates (6 repos)</h2>
+      <p><strong>Templates and tools for building and publishing custom actions</strong></p>
+      <div class="category-grid">
+        <a href="#" class="category-card">
+          <h3>actions/typescript-action</h3>
+          <p>Template for TypeScript Actions with tests, linting, publishing.</p>
+          <span class="stars">⭐ 2.4K</span>
+        </a>
+        <a href="#" class="category-card">
+          <h3>actions/javascript-action</h3>
+          <p>Template for JavaScript Actions with tests and publishing.</p>
+          <span class="stars">⭐ 1.2K</span>
+        </a>
+        <a href="#" class="category-card">
+          <h3>actions/container-action</h3>
+          <p>Template for Docker container actions.</p>
+          <span class="stars">⭐ 221</span>
+        </a>
+        <a href="#" class="category-card">
+          <h3>actions/hello-world-javascript-action</h3>
+          <p>Simple example of a JavaScript action.</p>
+          <span class="stars">⭐ 313</span>
+        </a>
+        <a href="#" class="category-card">
+          <h3>actions/hello-world-docker-action</h3>
+          <p>Simple example of a Docker action.</p>
+          <span class="stars">⭐ 180</span>
+        </a>
+        <a href="#" class="category-card">
+          <h3>actions/container-toolkit-action</h3>
+          <p>Template using actions/toolkit for container actions.</p>
+          <span class="stars">⭐ 165</span>
+        </a>
+      </div>
+    </section>
+
+    <section>
+      <h2>Release & Deployment (7 repos)</h2>
+      <p><strong>Actions for managing releases, versioning, and deployments</strong></p>
+      <div class="category-grid">
+        <a href="#" class="category-card">
+          <h3>actions/create-release</h3>
+          <p>Create releases via the GitHub Release API.</p>
+          <span class="stars">⭐ 1.4K</span>
+        </a>
+        <a href="#" class="category-card">
+          <h3>actions/upload-release-asset</h3>
+          <p>Upload assets to GitHub releases.</p>
+          <span class="stars">⭐ 719</span>
+        </a>
+        <a href="#" class="category-card">
+          <h3>actions/heroku</h3>
+          <p>GitHub Action for interacting with Heroku.</p>
+          <span class="stars">⭐ 178</span>
+        </a>
+        <a href="#" class="category-card">
+          <h3>actions/publish-action</h3>
+          <p>Publish GitHub Actions to the marketplace.</p>
+          <span class="stars">⭐ 59</span>
+        </a>
+      </div>
+    </section>
+
+    <section>
+      <h2>Attestation & Security (5 repos)</h2>
+      <p><strong>Actions for build provenance, SBOM, and SLSA attestations</strong></p>
+      <div class="category-grid">
+        <a href="#" class="category-card">
+          <h3>actions/attest-build-provenance</h3>
+          <p>Generate build provenance attestations for artifacts. SLSA framework.</p>
+          <span class="stars">⭐ 1.0K</span>
+        </a>
+        <a href="#" class="category-card">
+          <h3>actions/attest</h3>
+          <p>Generate attestations for workflow artifacts.</p>
+          <span class="stars">⭐ 168</span>
+        </a>
+        <a href="#" class="category-card">
+          <h3>actions/attest-sbom</h3>
+          <p>Generate SBOM attestations for artifacts.</p>
+          <span class="stars">⭐ 46</span>
+        </a>
+      </div>
+    </section>
+
+    <section>
+      <h2>Dependency Submission (4 repos)</h2>
+      <p><strong>Actions for submitting dependency manifests</strong></p>
+      <div class="category-grid">
+        <a href="#" class="category-card">
+          <h3>actions/go-dependency-submission</h3>
+          <p>Submit Go dependencies to the Dependency Submission API.</p>
+          <span class="stars">⭐ 86</span>
+        </a>
+        <a href="#" class="category-card">
+          <h3>actions/maven-dependency-submission-action</h3>
+          <p>Submit Maven dependencies to the Dependency Submission API.</p>
+          <span class="stars">⭐ 8</span>
+        </a>
+        <a href="#" class="category-card">
+          <h3>actions/component-detection-dependency-submission-action</h3>
+          <p>Component detection dependency submission for multiple platforms.</p>
+          <span class="stars">⭐ 8</span>
+        </a>
+      </div>
+    </section>
+
+    <section>
+      <h2>Advanced & Emerging (8 repos)</h2>
+      <p><strong>Latest and most advanced features</strong></p>
+      <div class="category-grid">
+        <a href="#" class="category-card">
+          <h3>actions/ai-inference</h3>
+          <p>Call AI models with GitHub Models. LLM integration for workflows.</p>
+          <span class="stars">⭐ 516</span>
+        </a>
+        <a href="#" class="category-card">
+          <h3>actions/runner-container-hooks</h3>
+          <p>Runner Container Hooks for advanced containerized workflows.</p>
+          <span class="stars">⭐ 153</span>
+        </a>
+        <a href="#" class="category-card">
+          <h3>actions/gh-actions-cache</h3>
+          <p>GitHub CLI extension for managing Actions caches programmatically.</p>
+          <span class="stars">⭐ 333</span>
+        </a>
+        <a href="#" class="category-card">
+          <h3>actions/scaleset</h3>
+          <p>Go client for building custom autoscaling solutions for runners.</p>
+          <span class="stars">⭐ 193</span>
+        </a>
+      </div>
+    </section>
+
+    <section>
+      <h2>Quick Reference</h2>
+      <table class="reference-table">
+        <thead>
+          <tr>
+            <th>Category</th>
+            <th>Key Repos</th>
+            <th>Use Case</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Essential</td>
+            <td>checkout, upload-artifact, cache</td>
+            <td>Every workflow</td>
+          </tr>
+          <tr>
+            <td>Setup</td>
+            <td>setup-node, setup-python, setup-java</td>
+            <td>Language specific workflows</td>
+          </tr>
+          <tr>
+            <td>Scripting</td>
+            <td>github-script, github</td>
+            <td>Complex GitHub API interactions</td>
+          </tr>
+          <tr>
+            <td>Quality</td>
+            <td>labeler, dependency-review, stale</td>
+            <td>Code quality and maintenance</td>
+          </tr>
+          <tr>
+            <td>Publishing</td>
+            <td>create-release, deploy-pages</td>
+            <td>Releases and deployments</td>
+          </tr>
+          <tr>
+            <td>Security</td>
+            <td>attest-build-provenance, dependency submission</td>
+            <td>SLSA and supply chain security</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="cta-section">
+      <h2>Explore the Full Ecosystem</h2>
+      <p>Dive deeper into official GitHub Actions and their documentation.</p>
+      <a href="https://github.com/actions" class="btn btn-primary" target="_blank">View All Repos</a>
+      <a href="../index.html" class="btn btn-secondary">Back to Home</a>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2026 Canmarha. All rights reserved.</p>
+      <p><a href="https://github.com/Canmarha">GitHub</a> | Built with automation & passion</p>
+    </div>
+  </footer>
+
+  <style>
+    .project-header {
+      text-align: center;
+      padding: 2rem 0;
+      margin-bottom: 2rem;
+    }
+
+    .project-header h1 {
+      font-size: 2.5rem;
+      color: #0366d6;
+      margin-bottom: 0.5rem;
+    }
+
+    .subtitle {
+      font-size: 1.25rem;
+      color: #666;
+      margin-bottom: 1.5rem;
+    }
+
+    .category-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1.5rem;
+      margin-bottom: 2rem;
+    }
+
+    .category-card {
+      background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+      padding: 1.5rem;
+      border-radius: 8px;
+      text-decoration: none;
+      color: inherit;
+      border: 2px solid transparent;
+      transition: all 0.3s;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .category-card:hover {
+      border-color: #0366d6;
+      transform: translateY(-4px);
+      box-shadow: 0 6px 16px rgba(3, 102, 214, 0.2);
+    }
+
+    .category-card h3 {
+      color: #0366d6;
+      margin-bottom: 0.75rem;
+      font-size: 1.1rem;
+    }
+
+    .category-card p {
+      color: #333;
+      font-size: 0.95rem;
+      flex-grow: 1;
+      margin-bottom: 0.75rem;
+    }
+
+    .category-card .stars {
+      display: inline-block;
+      background: white;
+      padding: 0.25rem 0.75rem;
+      border-radius: 20px;
+      font-size: 0.85rem;
+      color: #666;
+    }
+
+    .reference-table {
+      width: 100%;
+      border-collapse: collapse;
+      background: #f6f8fa;
+      border-radius: 8px;
+      overflow: hidden;
+      margin-bottom: 2rem;
+    }
+
+    .reference-table thead {
+      background: #0366d6;
+      color: white;
+    }
+
+    .reference-table th {
+      padding: 1rem;
+      text-align: left;
+      font-weight: 600;
+    }
+
+    .reference-table td {
+      padding: 1rem;
+      border-top: 1px solid #ddd;
+    }
+
+    .reference-table tbody tr:hover {
+      background: white;
+    }
+
+    .cta-section {
+      text-align: center;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+      padding: 2rem;
+      border-radius: 12px;
+      margin-top: 2rem;
+    }
+
+    .cta-section h2 {
+      color: white;
+      border: none;
+    }
+
+    .cta-section p {
+      margin-bottom: 1.5rem;
+    }
+  </style>
+</body>
+</html>
